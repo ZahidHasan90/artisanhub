@@ -3,10 +3,10 @@ require_once '../app.php';
 
 // TODO: DB
 $user = [
-  'name' => '山田 太郎',
-  'email' => 'taro.yamada@example.com',
-  'address' => '東京都新宿区新宿1-1-1',
-  'phone' => '090-1234-5678'
+  'name' => '',
+  'email' => '',
+  'address' => '',
+  'phone' => ''
 ];
 ?>
 

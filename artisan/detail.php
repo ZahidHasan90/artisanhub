@@ -14,7 +14,7 @@ require_once '../app.php';
         <section class="bg-white rounded-lg shadow-md p-4">
             <h1 class="text-4xl font-bold text-center mb-8" id="artisan-name">John Doe</h1>
             <div class="flex flex-col lg:flex-row">
-                <img id="artisan-image" class="rounded-lg w-full lg:w-1/3 mb-4 lg:mb-0 lg:mr-4" src="images/artisan_1.webp" alt="Artisan Image">
+                <img id="images/artisan1.jpg" class="rounded-lg w-full lg:w-1/3 mb-4 lg:mb-0 lg:mr-4" src="images/artisan_1.webp" alt="Artisan Image">
                 <div class="lg:w-2/3">
                     <h2 class="text-2xl font-bold mb-2" id="artisan-specialty">Pottery</h2>
                     <p class="text-gray-700 mb-4" id="artisan-description">John has been crafting exquisite pottery for over 20 years.</p>

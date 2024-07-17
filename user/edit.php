@@ -3,10 +3,10 @@ require_once '../app.php';
 
 // ユーザ情報を取得する仮のデータ
 $user = [
-    'name' => 'ZAHID HASAN ',
-    'email' => 'zahid@example.com',
-    'address' => 'Bangladesh',
-    'phone' => '08061229791'
+    'name' => '',
+    'email' => '',
+    'address' => '',
+    'phone' => ''
 ];
 ?>
 

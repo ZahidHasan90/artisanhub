@@ -11,7 +11,7 @@
 <body class="bg-gray-100">
     <header class="bg-white shadow">
         <div class="container mx-auto px-4 py-6">
-            <h1 class="text-3xl font-bold text-gray-800">Craftsman Shop</h1>
+            <h1 class="text-3xl font-bold text-gray-800">Artisan hub</h1>
             <nav class="mt-4">
                 <ul class="flex space-x-4">
                     <li><a href="../" class="text-gray-600 hover:text-gray-800">ホーム</a></li>
@@ -29,21 +29,21 @@
         <div id="artisan-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <div class="bg-white rounded-lg shadow-md p-4">
                 <img src="../images/artisan1.jpg" alt="John Doe" class="rounded-t-lg w-full">
-                <h2 class="text-xl font-bold mt-4">John Doe</h2>
+                <h2 class="text-xl font-bold mt-4">Mehedi</h2>
                 <p class="text-gray-600">Pottery</p>
                 <p class="text-gray-700 mt-2">John has been crafting exquisite pottery for over 20 years.</p>
                 <a class="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 inline-block" href="detail.php">詳細を見る</a>
             </div>
             <div class="bg-white rounded-lg shadow-md p-4">
                 <img src="../images/artisan1.jpg" alt="Jane Smith" class="rounded-t-lg w-full">
-                <h2 class="text-xl font-bold mt-4">Jane Smith</h2>
+                <h2 class="text-xl font-bold mt-4">Bikash</h2>
                 <p class="text-gray-600">Woodworking</p>
                 <p class="text-gray-700 mt-2">Jane creates beautiful wooden sculptures and furniture.</p>
                 <a class="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 inline-block" href="detail.php">詳細を見る</a>
             </div>
             <div class="bg-white rounded-lg shadow-md p-4">
                 <img src="../images/artisan2.jpg" alt="Emily Johnson" class="rounded-t-lg w-full">
-                <h2 class="text-xl font-bold mt-4">Emily Johnson</h2>
+                <h2 class="text-xl font-bold mt-4">Sumon</h2>
                 <p class="text-gray-600">Textile Art</p>
                 <p class="text-gray-700 mt-2">Emily is known for her intricate textile designs.</p>
                 <a class="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 inline-block" href="detail.php">詳細を見る</a>
