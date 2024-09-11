@@ -20,11 +20,6 @@ require_once './app.php';
     </section>
  
 
-
-
-
-
-
     
    
     <section>
