@@ -11,7 +11,7 @@
 <body class="bg-gray-100">
   <header class="bg-white shadow">
     <div class="container mx-auto px-4 py-6">
-      <h1 class="text-3xl font-bold text-gray-800">Craftsman Shop</h1>
+      <h1 class="text-3xl font-bold text-gray-800">Artisan Hub</h1>
       <nav class="mt-4">
         <ul class="flex space-x-4">
           <li><a href="../" class="text-gray-600 hover:text-gray-800">ホーム</a></li>
@@ -25,6 +25,9 @@
     </div>
   </header>
 
+
+
+
   <main class="container mx-auto px-4 py-8">
     <div class="bg-white shadow-md rounded-lg overflow-hidden">
       <h2>Register</h2>
@@ -33,6 +36,8 @@
     </div>
   </main>
 
+
+
   <footer class="bg-white shadow mt-12">
     <div class="container mx-auto px-4 py-6 text-center">
       <p class="text-gray-600">&copy; 2024 Craftsman Shop. All rights reserved.</p>
@@ -40,5 +45,7 @@
   </footer>
   <script defer src="js/app.js"></script>
 </body>
+
+
 
 </html>

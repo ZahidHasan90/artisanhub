@@ -1,17 +1,3 @@
-<?php
-require_once '../../app.php';
-$product = [];
-if (empty($_GET['id'])) {
-    header('Location: ./');
-}
-$product = new Product();
-$product->findByID($_GET['id']);
-//TODO
-// if (isset($_SESSION[APP_NAME]['product'])) {
-//     $product = $_SESSION[APP_NAME]['product'];
-// }
-
-?>
 <!DOCTYPE html>
 <html lang="ja">
 

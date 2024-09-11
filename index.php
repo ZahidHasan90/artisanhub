@@ -10,12 +10,23 @@ require_once './app.php';
 <body class="bg-gray-100">
   <?php include COMPONENT_DIR . 'nav.php' ?>
 
+  
   <main class="container mx-auto px-4 py-8">
     <section class="text-center mb-12">
       <h2 class="text-4xl font-bold text-gray-800 mb-4">職人の手作り作品をお届けします</h2>
       <p class="text-gray-600">当店では、伝統的な技法で作られた職人の手作り作品を取り揃えています。<br>質の高い商品をお届けします。</p>
-    </section>
 
+
+    </section>
+ 
+
+
+
+
+
+
+    
+   
     <section>
       <h3 class="text-2xl font-bold text-gray-800 mb-6">おすすめ商品</h3>
       <div id="products" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

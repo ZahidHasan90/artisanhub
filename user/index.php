@@ -26,22 +26,36 @@ $user = [
       </div>
 
       <div class="space-y-4">
-        <div>
-          <label class="block text-gray-700">ユーザ名:</label>
-          <p class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm bg-gray-100"><?php echo htmlspecialchars($user['name']); ?></p>
-        </div>
-        <div>
-          <label class="block text-gray-700">Email:</label>
-          <p class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm bg-gray-100"><?php echo htmlspecialchars($user['email']); ?></p>
-        </div>
-        <div>
-          <label class="block text-gray-700">住所:</label>
-          <p class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm bg-gray-100"><?php echo htmlspecialchars($user['address']); ?></p>
-        </div>
-        <div>
-          <label class="block text-gray-700">電話番号:</label>
-          <p class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm bg-gray-100"><?php echo htmlspecialchars($user['phone']); ?></p>
-        </div>
+  <div>
+    <label class="block text-gray-700">ユーザ名:</label>
+    <input type="text" 
+           class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm bg-gray-100" 
+           value="<?php echo htmlspecialchars($user['name']); ?>" 
+           readonly>
+  </div>
+  <div>
+    <label class="block text-gray-700">Email:</label>
+    <input type="email" 
+           class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm bg-gray-100" 
+           value="<?php echo htmlspecialchars($user['email']); ?>" 
+           readonly>
+  </div>
+  <div>
+    <label class="block text-gray-700">住所:</label>
+    <input type="text" 
+           class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm bg-gray-100" 
+           value="<?php echo htmlspecialchars($user['address']); ?>" 
+           readonly>
+  </div>
+  <div>
+    <label class="block text-gray-700">電話番号:</label>
+    <input type="tel" 
+           class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm bg-gray-100" 
+           value="<?php echo htmlspecialchars($user['phone']); ?>" 
+           readonly>
+  </div>
+</div>
+
       </div>
     </div>
   </main>

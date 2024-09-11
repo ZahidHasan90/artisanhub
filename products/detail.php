@@ -32,16 +32,27 @@
           <img src="../images/mango.jpg" alt="Product Image" class="w-full h-64 object-cover md:w-64">
         </div>
         <div class="p-8">
-          <h2 class="text-2xl font-bold text-gray-800">Product Name</h2>
-          <p class="text-gray-600 mt-4">This is a detailed description of the product. It includes all the necessary information about the product, such as its features, materials used, and any other relevant details that would be useful for the customer to know.</p>
-          <p class="text-gray-600 mt-4">Artisan: <a href="artisan/detail.php" target="_blank">Adam</a></p>
+          <h2 class="text-2xl font-bold text-gray-800">Mango</h2>
+          <p class="text-gray-600 mt-4">A mango is an edible stone fruit produced by the tropical tree Mangifera indica, native to southern Asia, particularly Myanmar, Bangladesh, and northeastern India. This tree can grow up to 30-40 meters (98-131 feet) tall and has a long lifespan, with some trees continuing to bear fruit for over 300 years. The leaves are evergreen, lanceolate, and can be quite large, changing color from reddish to dark green as they mature. </p>
+          <p class="text-gray-600 mt-4">Artisan: <a href="artisan/detail.php" target="_blank">Mehedi</a></p>
           <div class="mt-4">
             <span class="text-3xl font-bold text-gray-800">¥5,000</span>
           </div>
           <div class="mt-6">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">カートに追加</button>
-            <a href="./" class="text-blue font-bold py-2 px-4 rounded">Back</a>
-          </div>
+ 
+          <div class="mt-6">
+  
+
+  
+
+  <a href="http://localhost/local_shop/cart/" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2">
+    Add to Cart
+  </a>
+    
+  <a href="./" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2">Back</a>
+</div>
+
+
         </div>
       </div>
     </div>
